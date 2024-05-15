@@ -13,7 +13,7 @@ class AuthenticationController extends BaseController
      *       path="/login",
      *       tags={"Authentication"},
      *       operationId="",
-     *       summary="Kategori Berita",
+     *       summary="Login ke Aplikasi",
      *       description="Melakukan Login",
     *          @OA\Parameter(
      *         name="email",

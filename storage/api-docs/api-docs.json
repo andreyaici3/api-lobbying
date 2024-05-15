@@ -14,12 +14,12 @@
     },
     "servers": [
         {
-            "url": "https://192.168.1.4:8000/api/v1",
-            "description": "Demo API Server"
-        },
-        {
             "url": "https://api-lobbying.andrey.id/api/v1",
             "description": "Hosting Server"
+        },
+        {
+            "url": "https://192.168.1.4:8000/api/v1",
+            "description": "Demo API Server"
         }
     ],
     "paths": {
@@ -28,7 +28,7 @@
                 "tags": [
                     "Authentication"
                 ],
-                "summary": "Kategori Berita",
+                "summary": "Login ke Aplikasi",
                 "description": "Melakukan Login",
                 "operationId": "",
                 "parameters": [
